@@ -1,10 +1,11 @@
 # A React Progress Bar Component
 
 A customizable progress bar React component to visualize progress through a series of steps.
+![Screenshot 2024-02-18 222140](https://github.com/7hourspg/react-progress-bar/assets/98067649/4a60c452-154e-4156-8d33-31f98bbcccba)
 
 ## Installation
 
-You can install the `react-progress-bar` package via npm:
+You can install the `@7hours/react-progress-bar` package via npm:
 
 ```bash
 npm install @7hours/react-progress-bar
