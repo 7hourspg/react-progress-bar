@@ -1,6 +1,6 @@
 {
   "name": "@7hours/react-progress-bar",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This is a customizable progress bar component for React applications. It visually represents progress through a series of steps, with options for adjusting colors, sizes, and styles to match different design requirements.",
   "keywords": [
     "react",
