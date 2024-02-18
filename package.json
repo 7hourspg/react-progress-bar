@@ -1,0 +1,34 @@
+{
+  "name": "@7hours/react-progress-bar",
+  "version": "1.0.3",
+  "description": "This is a customizable progress bar component for React applications. It visually represents progress through a series of steps, with options for adjusting colors, sizes, and styles to match different design requirements.",
+  "keywords": [
+    "react",
+    "react-progress-bar",
+    "component",
+    "ui",
+    "library",
+    "@7hours"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/7hourspg/react-progress-bar.git"
+  },
+  "homepage": "https://github.com/7hourspg/react-progress-bar#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "build": "babel src -d dist"
+  },
+  "author": "7hours",
+  "license": "ISC",
+  "dependencies": {
+    "lucide-react": "^0.331.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3"
+  }
+}

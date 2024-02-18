@@ -1,0 +1,164 @@
+.custom-relative {
+    position: relative;
+  }
+  
+  .custom-w-80 {
+    width: 100%;
+  }
+  
+  .custom-flex {
+    display: flex;
+  }
+  
+  .custom-flex-col-reverse {
+    flex-direction: column-reverse;
+  }
+  
+  .custom-gap-3 {
+    gap: 0.75rem;
+  }
+  
+  .custom-flex-col {
+    flex-direction: column;
+  }
+  
+  .custom-gap-2 {
+    gap: 0.5rem;
+  }
+  
+  .custom-text-muted-foreground {
+    color: #6b7280; /* This color needs to be defined in your project */
+  }
+  
+  .custom-text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .custom-w-95 {
+    width: 95%;
+  }
+  
+  .custom-mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .custom-absolute {
+    position: absolute;
+  }
+  
+  .custom-h-2 {
+    height: 0.5rem;
+  }
+  
+  .custom-bg-gray-300 {
+    background-color: #d1d5db;
+  }
+  
+  .custom-rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .custom-w-full {
+    width: 100%;
+  }
+  
+  .custom-top-1-2 {
+    top: 50%;
+  }
+  
+  .custom-transform {
+    --tw-transform: var(--tw-empty,/*!*/ /*!*/);
+    transform: var(--tw-transform);
+  }
+  
+  .custom--translate-y-1-2 {
+    --tw-translate-y: -50%;
+    transform: var(--tw-transform) translateY(var(--tw-translate-y));
+  }
+  
+  .custom-bg-green-500 {
+    background-color: #10b981;
+  }
+  
+  .custom-transition-all {
+    transition-property: all;
+  }
+  
+  .custom-duration-300 {
+    transition-duration: 300ms;
+  }
+  
+  .custom-ease-in-out {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .custom-justify-between {
+    justify-content: space-between;
+  }
+  
+  .custom-text-green-500 {
+    color: #10b981;
+  }
+  
+  .custom-text-gray-400 {
+    color: #9ca3af;
+  }
+  
+  .custom-items-center {
+    align-items: center;
+  }
+  
+  .custom-w-6 {
+    width: 1.5rem;
+  }
+  
+  .custom-h-6 {
+    height: 1.5rem;
+  }
+  
+  .custom-rounded-full {
+    border-radius: 50%;
+  }
+  
+  .custom-z-10 {
+    z-index: 10;
+  }
+  
+  .custom-justify-center {
+    justify-content: center;
+  }
+  
+  .custom-text-white {
+    color: #ffffff;
+  }
+  
+  .custom-top-1-2.-translate-y-1-2 {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .custom-vertical .custom-progress-bar-container {
+    flex-direction: column;
+  }
+  
+  .custom-vertical .custom-progress-bar {
+    height: 100%;
+    width: 0.5rem;
+  }
+  
+  .custom-vertical .custom-progress-bar-track {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .custom-vertical .custom-progress-step {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  .custom-vertical .custom-progress-step:last-child {
+    margin-bottom: 0;
+  }
+  
