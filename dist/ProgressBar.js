@@ -6,9 +6,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = void 0;
 var _react = _interopRequireWildcard(require("react"));
-var _lucideReact = require("lucide-react");
 var _propTypes = _interopRequireDefault(require("prop-types"));
 require("./ProgressBar.css");
+var _star = require("./star.svg");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(e) { return e ? t : r; })(e); }
 function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != _typeof(e) && "function" != typeof e) return { "default": e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n["default"] = e, t && t.set(e, n), n; }
@@ -63,7 +63,7 @@ var ProgressBar = function ProgressBar(_ref) {
     }
   }), /*#__PURE__*/_react["default"].createElement("div", {
     className: "custom-flex custom-justify-between"
-  }, steps.map(function (step, index) {
+  }, steps.map(function (_, index) {
     return /*#__PURE__*/_react["default"].createElement("div", {
       key: index,
       className: "custom-relative custom-flex custom-flex-col custom-items-center ".concat(index < currentStep ? "custom-text-green-500" : "custom-text-gray-400")
@@ -74,12 +74,7 @@ var ProgressBar = function ProgressBar(_ref) {
         height: stepContainerSize,
         backgroundColor: index < currentStep + 1 ? stepContainerActiveColor : stepContainerInactiveColor
       }
-    }, icon ? icon : /*#__PURE__*/_react["default"].createElement(_lucideReact.Check, {
-      size: 18,
-      style: {
-        color: "white"
-      }
-    })));
+    }, icon && icon));
   }))), /*#__PURE__*/_react["default"].createElement("div", {
     className: "custom-flex custom-justify-between"
   }, steps.map(function (step, index) {
@@ -110,11 +105,9 @@ ProgressBar.defaultProps = {
   height: 6,
   completedColor: "green",
   incompleteColor: "gray",
-  icon: /*#__PURE__*/_react["default"].createElement(_lucideReact.Check, {
-    size: 18,
-    style: {
-      color: "white"
-    }
+  icon: /*#__PURE__*/_react["default"].createElement(_star.ReactComponent, {
+    width: 16,
+    color: "white"
   }),
   stepContainerSize: 24,
   stepContainerActiveColor: "green",
