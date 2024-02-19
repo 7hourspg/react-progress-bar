@@ -22,9 +22,6 @@
   },
   "author": "7hours",
   "license": "ISC",
-  "dependencies": {
-    "lucide-react": "^0.331.0"
-  },
   "devDependencies": {
     "@babel/cli": "^7.23.9",
     "@babel/core": "^7.23.9",

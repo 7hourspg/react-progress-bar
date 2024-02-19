@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Check } from "lucide-react";
 import PropTypes from "prop-types";
 import "./ProgressBar.css";
+import { ReactComponent as MyIcon } from './star.svg';
+
 
 const ProgressBar = ({
   steps,
@@ -40,7 +41,7 @@ const ProgressBar = ({
           }}
         />
         <div className="custom-flex custom-justify-between">
-          {steps.map((step, index) => (
+          {steps.map((_, index) => (
             <div
               key={index}
               className={`custom-relative custom-flex custom-flex-col custom-items-center ${
@@ -64,7 +65,7 @@ const ProgressBar = ({
                       : stepContainerInactiveColor,
                 }}
               >
-                {icon ? icon : <Check size={18} style={{ color: "white" }} />}
+                 {icon && icon }
               </div>
             </div>
           ))}
@@ -114,7 +115,7 @@ ProgressBar.defaultProps = {
   height: 6,
   completedColor: "green",
   incompleteColor: "gray",
-  icon: <Check size={18} style={{ color: "white" }} />,
+  icon: <MyIcon width={16} color="white"/>,
   stepContainerSize: 24,
   stepContainerActiveColor: "green",
   stepContainerInactiveColor: "gray",

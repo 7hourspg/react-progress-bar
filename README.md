@@ -29,7 +29,6 @@ const currentStep = 1;
 const height = 10;
 const completedColor = "green";
 const incompleteColor = "gray";
-const icon = <Star size={18} style={{ color: "white" }} />;
 const stepCompleteTextColor = "green";
 const stepInCompleteTextColor = "gray";
 const stepContainerSize = 24;
@@ -47,7 +46,6 @@ const App = () => {
       height={height}
       completedColor={completedColor}
       incompleteColor={incompleteColor}
-      icon={icon}
       stepCompleteTextColor={stepCompleteTextColor}
       stepInCompleteTextColor={stepInCompleteTextColor}
       stepContainerSize={stepContainerSize}
@@ -68,13 +66,22 @@ export default App;
 | height                       | number        | 6             | The height of the progress bar.                                                                                |
 | completedColor               | string        | "green"       | The color of the completed portion of the progress bar.                                                        |
 | incompleteColor              | string        | "gray"        | The color of the incomplete portion of the progress bar.                                                        |
-| icon                         | element       | Check         | The icon to be displayed within each step.                                                                      |
+| icon                         | element       | Star         | The icon to be displayed within each step.                                                                      |
 | stepContainerSize            | number        | 24            | The size of the step container.                                                                                 |
 | stepContainerActiveColor     | string        | "green"       | The color of the active step container.                                                                         |
 | stepContainerInactiveColor   | string        | "gray"        | The color of the inactive step container.                                                                       |
 | stepCompleteTextColor        | string        | "green"       | The text color of completed steps.                                                                              |
 | stepInCompleteTextColor      | string        | "gray"        | The text color of incomplete steps.                                                                            |
 | stepFont                     | object        |               | An object specifying the font properties for the step text.                                                      |
+
+
+## Contributing
+
+Contributions, feature requests, and bug reports are welcome! If you encounter any issues, have suggestions for new features, or find bugs, please don't hesitate to open an issue on [GitHub](https://github.com/7hourspg/react-progress-bar.git).
+
+If you'd like to contribute to the project, feel free to fork the repository and submit a pull request with your changes.
+
+Your feedback and contributions are valuable and greatly appreciated!
 
 
 ## Credits
